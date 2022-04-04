@@ -1,0 +1,102 @@
+root@LAPTOP-V87KH1QO:/mnt/c/macos-env-flatiron-student-portal-1# gem install learn-lab
+Fetching learn-lab-0.1.0.gem
+/usr/share/rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/gem-wrappers-1.4.0/lib/gem-wrappers/installer.rb:56: warning: Insecure world writable dir /mnt/c in PATH, mode 040777
+Successfully installed learn-lab-0.1.0
+Parsing documentation for learn-lab-0.1.0
+Installing ri documentation for learn-lab-0.1.0
+Done installing documentation for learn-lab after 3 seconds
+1 gem installed
+root@LAPTOP-V87KH1QO:/mnt/c/macos-env-flatiron-student-portal-1# learn-lab config
+edywid
+Enter the email you use to log into Canvas
+(your current email is '<not set>'): >edywidowaty@gmail.com
+Configuration saved!
+root@LAPTOP-V87KH1QO:/mnt/c/macos-env-flatiron-student-portal-1# git clone git@github.com:RiayaEdy/macos-env-flatiron-student-portal.git
+Cloning into 'macos-env-flatiron-student-portal'...
+remote: Enumerating objects: 82, done.
+remote: Counting objects: 100% (23/23), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 82 (delta 21), reused 18 (delta 18), pack-reused 59
+Receiving objects: 100% (82/82), 43.57 KiB | 398.00 KiB/s, done.
+Resolving deltas: 100% (43/43), done.
+root@LAPTOP-V87KH1QO:/mnt/c/macos-env-flatiron-student-portal-1# cd macos-en
+v-flatiron-student-portal
+root@LAPTOP-V87KH1QO:/mnt/c/macos-env-flatiron-student-portal-1/macos-env-flatiron-student-portal# npm install
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated mkdirp@0.5.4: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+npm WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+
+added 235 packages, and audited 236 packages in 2m
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+root@LAPTOP-V87KH1QO:/mnt/c/macos-env-flatiron-student-portal-1/macos-env-flatiron-student-portal# learn-lab test
+
+> macos-env-flatiron-student-portal@1.0.0 test
+> mocha --timeout 5000 -R mocha-multi --reporter-options spec=-,json=.results.json
+
+
+
+  This assignment
+    ✓ has been correctly cloned to your local environment
+
+
+  1 passing (101ms)
+
+Your token is:
+
+eyJsbXNfZW1haWwiOiJlZHl3aWVkeX
+dpZG93YXR5QGdtYWlsLmNvbSIsInZj
+c191cmwiOiJnaXRAZ2l0aHViLmNvbT
+pSaWF5YUVkeS9tYWNvcy1lbnYtZmxh
+dGlyb24tc3R1ZGVudC1wb3J0YWwuZ2
+l0IiwidGltZXN0YW1wIjoiMjAyMi0w
+NC0wNCAxMTowMTozNSBVVEMifQ==
+root@LAPTOP-V87KH1QO:/mnt/c/macos-env-flatiron-student-portal-1/macos-env-flatiron-student-portal# git init
+Reinitialized existing Git repository in /mnt/c/macos-env-flatiron-student-portal-1/macos-env-flatiron-student-portal/.git/
+root@LAPTOP-V87KH1QO:/mnt/c/macos-env-flatiron-student-portal-1/macos-env-flatiron-student-portal# git add-A
+git: 'add-A' is not a git command. See 'git --help'.
+root@LAPTOP-V87KH1QO:/mnt/c/macos-env-flatiron-student-portal-1/macos-env-flatiron-student-portal# git commit -m 'Added my project'
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        package-lock.json
+
+nothing added to commit but untracked files present (use "git add" to track)root@LAPTOP-V87KH1QO:/mnt/c/macos-env-flatiron-student-portal-1/macos-env-flatiron-student-portal# git remote add origin git@github.com:RiayaEdy/my-project.git
+fatal: remote origin already exists.
+root@LAPTOP-V87KH1QO:/mnt/c/macos-env-flatiron-student-portal-1/macos-env-flatiron-student-portal# git add package-lock.json
+root@LAPTOP-V87KH1QO:/mnt/c/macos-env-flatiron-student-portal-1/macos-env-flatiron-student-portal# git remote add origin git@github.com:RiayaEdy/my-project.git
+fatal: remote origin already exists.
+root@LAPTOP-V87KH1QO:/mnt/c/macos-env-flatiron-student-portal-1/macos-env-flatiron-student-portal# git branch -M main
+root@LAPTOP-V87KH1QO:/mnt/c/macos-env-flatiron-student-portal-1/macos-env-flatiron-student-portal# git push -u origin main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+Everything up-to-date
+root@LAPTOP-V87KH1QO:/mnt/c/macos-env-flatiron-student-portal-1/macos-env-flatiron-student-portal# echo "#my-project" >> README.md
+root@LAPTOP-V87KH1QO:/mnt/c/macos-env-flatiron-student-portal-1/macos-env-flatiron-student-portal# git init
+Reinitialized existing Git repository in /mnt/c/macos-env-flatiron-student-portal-1/macos-env-flatiron-student-portal/.git/
+root@LAPTOP-V87KH1QO:/mnt/c/macos-env-flatiron-student-portal-1/macos-env-flatiron-student-portal# git add README.md
+root@LAPTOP-V87KH1QO:/mnt/c/macos-env-flatiron-student-portal-1/macos-env-flatiron-student-portal# git commit -m "first commit"
+[main c41033c] first commit
+ 2 files changed, 4656 insertions(+)
+ create mode 100644 package-lock.json
+root@LAPTOP-V87KH1QO:/mnt/c/macos-env-flatiron-student-portal-1/macos-env-flatiron-student-portal# git branch -M main
+root@LAPTOP-V87KH1QO:/mnt/c/macos-env-flatiron-student-portal-1/macos-env-flatiron-student-portal# git remote add origin git@github.com:RiayaEdy/my-project.git
+fatal: remote origin already exists.
+root@LAPTOP-V87KH1QO:/mnt/c/macos-env-flatiron-student-portal-1/macos-env-flatiron-student-portal# git push -u origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 42.57 KiB | 726.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.       
+To github.com:RiayaEdy/macos-env-flatiron-student-portal.git
+   d37eb31..c41033c  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+root@LAPTOP-V87KH1QO:/mnt/c/macos-env-flatiron-student-portal-1/macos-env-flatiron-student-portal#
